@@ -27,15 +27,20 @@
 
 #TEST 3
 import random
-number = random.randrange(1,16)
-guess = int(input("guess a number between 1 and 16: "))
-while guess !=number:
-    if guess < number:
-        print("you need to guess higher. Try again")
-        guess = int(input("guestt a number between 1 and 16: "))
-    else:
-        print("guess a number lower. Try again")
-        guess = int(input("guess a number between 1 and 16: "))
+# number = random.randrange(1,16)
+# guess = int(input("guess a number between 1 and 16: "))
+# while guess !=number:
+#     if guess < number:
+#         print("you need to guess higher. Try again")
+#         guess = int(input("guestt a number between 1 and 16: "))
+#     else:
+#         print("guess a number lower. Try again")
+#         guess = int(input("guess a number between 1 and 16: "))
+#
+#         print("you guessted the number correctly")
 
-        print("you guessted the number correctly")
+def rolldice():
+    number = random.randint(1,6)
+    print(number)
 
+    rolldice()
